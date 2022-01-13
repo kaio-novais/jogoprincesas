@@ -1,0 +1,69 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(144,5,62,1) 94%);
+    width: 170vh;
+}
+
+.dialoguebox{
+    font-family: 'Montserrat' , sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    top: 60px;
+    margin: 0;
+    left: 90px;
+}
+.text{
+    text-align: center;
+}
+.dragonicon{
+    display: flex;
+    position: relative;
+    top: -300px;
+    opacity: 20%;
+    margin-right: 70px;
+    left: 200px;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: 0.5s;
+    align-items: center;
+}
+.dragonicon:hover{
+    opacity: 100%;
+}
+.containerbutton{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    top: 50px;
+    margin: 10px;
+    left: 60px;
+}
+.containerbutton button{
+    font-family: 'Montserrat' , sans-serif;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+}
+.btn-re{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    top: 90px;
+    left: 200px;
+}
+.btn-re button{
+    font-family: 'Montserrat' , sans-serif;
+    width: 300px;
+    height: 50px;
+    font-weight: 500;
+    border-radius: 7px;
+}
